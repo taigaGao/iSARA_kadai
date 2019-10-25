@@ -1,4 +1,4 @@
-/* スマホサイズの場合は以下を適用する */
+/* スマホサイズの場合は以下を適用する:375px以下 */
 @media all and (max-width: 375px) {
     .top-wrapper{
         text-align:center;
@@ -14,7 +14,6 @@
     }
 
     .header-content{
-        display: flex;
         flex-direction: column;
     }
 
@@ -101,7 +100,7 @@
     }
 }
 
-/* スマホサイズの場合は以下を適用する */
+/* スマホサイズの場合は以下を適用する:320px以下 */
 @media all and (max-width: 320px) {
     .container{
         width: 300px;
