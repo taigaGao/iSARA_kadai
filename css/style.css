@@ -46,6 +46,7 @@ header{
 .header-list{
     margin-left:auto;
     display: flex;
+    line-height: 65px;
 }
 
 .header-list a{
@@ -53,7 +54,6 @@ header{
     margin-left:30px;
     font-weight:bold;
     font-size:17px;
-    line-height: 65px;
     letter-spacing: 0;
     color: #333333;
 }
