@@ -1,0 +1,128 @@
+/* スマホサイズの場合は以下を適用する */
+@media all and (max-width: 375px) {
+    .top-wrapper{
+        text-align:center;
+    }
+
+    .container{
+        width: 345px;
+        padding:0 15px;
+    }
+
+    header{
+        height: 80px;
+    }
+
+    .header-content{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .header-list{
+        margin-left:0;
+    }
+
+    .header-list a{
+        margin-left: 0;
+        margin-right:11px;
+        font-size:14px;
+        line-height: 24px;
+    }
+
+    .header-logo{
+        font-size:18px;
+        line-height: 31px;
+    }
+    
+    .contents-wrapper{
+        margin: 40px 0;
+    }
+
+    .contents{
+        flex-direction: column;
+    }
+
+    .heading{
+        font-size:22px;
+        line-height: 28px;
+        color: #1F91BE;
+        border-bottom: 3px solid #1F91BE;
+        margin-bottom: 20px;
+    }
+
+    .primary{
+        width:100%
+    }
+
+    .about-contents{
+        flex-direction: column;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .about-content img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-content p{
+        margin-bottom: 40px;
+    }
+
+    .secondary{
+        width: 100%;
+    }
+
+    .news-content{
+        flex-direction: column;
+    }
+
+    .news-message{
+        margin-left:0;
+        width: 336px;
+    }
+
+    .news-btn{
+        text-align: center;
+        margin-bottom: 60px;
+    }
+
+    .side-image{
+        padding:0 23px;
+        width: 300px;
+    }
+
+    .category-list{
+        font: Bold 14px/28px YuGothic;
+        color: #333333;
+        margin-bottom: 15px;
+    }
+}
+
+/* スマホサイズの場合は以下を適用する */
+@media all and (max-width: 320px) {
+    .container{
+        width: 300px;
+        padding:0 10px;
+    }
+
+    .header-list a{
+        margin-left: 0;
+        margin-right:11px;
+        font-size:12px;
+        line-height: 22px;
+    }
+
+    .news-message{
+        margin-left:0;
+        width: 300px;
+    }
+
+    .side-image{
+        padding:0 10px;
+        width: 280px;
+    }
+}
+
