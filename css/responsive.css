@@ -6,11 +6,12 @@
 
     .container{
         width: 345px;
-        padding:0 15px;
+        /* padding:0 15px; */
     }
 
     header{
-        height: 80px;
+        /* height: 80px; */
+        margin:15px 0 5px 0;
     }
 
     .header-content{
@@ -80,16 +81,26 @@
 
     .news-message{
         margin-left:0;
-        width: 336px;
+        width: 315px;
     }
 
     .news-btn{
         text-align: center;
+        /* font-size: 14px; */
+        /* padding:13px 39px; */
         margin-bottom: 60px;
     }
 
+    .btn{
+        padding:13px 0;
+        font-size: 14px;
+    }
+
+    .side-images img{
+        margin:0 auto 30px auto;
+    }
+
     .side-image{
-        padding:0 23px;
         width: 300px;
     }
 

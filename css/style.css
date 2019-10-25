@@ -1,8 +1,5 @@
-html, body,
-ul, ol, li,
-h1, h2, h3, h4, h5, h6, p, div {
-  margin: 0;
-  padding: 0;
+*{
+  box-sizing: border-box;
 }
 
 body {
@@ -36,25 +33,27 @@ header{
 
 .header-content{
     display: flex;
-    margin:22px 0;
+    /* margin:22px 0; */
 }
 
 .header-logo{
     font-weight:bold;
     font-size:31px;
-    line-height: 53px;
+    line-height: 65px;
     color: #1F91BE;
 }
 
 .header-list{
     margin-left:auto;
+    display: flex;
 }
 
 .header-list a{
+    display: block;
     margin-left:30px;
     font-weight:bold;
     font-size:17px;
-    line-height: 29px;
+    line-height: 65px;
     letter-spacing: 0;
     color: #333333;
 }
@@ -155,7 +154,6 @@ header{
     padding: 8px 0;
     width: 148px;
     font-size: 16px;
-    line-height: 11px;
     font-weight: bold;
     color:#1F91BE;
     border: 2px solid #1F91BE;
