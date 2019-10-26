@@ -11,6 +11,25 @@
         width: 300px;
     }
 
+    .contents-left{
+        margin-right:10px;
+    }
+
+    .contents-right{
+        margin-left:10px;
+    }
+
+    .news-content{
+        flex-direction: column;
+        width: 500px;
+    }
+
+    .news-content p{
+        width: 500px;
+    }
+
+
+
 }
 
 /* タブレットサイズの場合は以下を適用する:768px以下 */
@@ -57,8 +76,12 @@
         width: 100%;
     }
 
-    .news-content{
-        flex-direction: column;
+    .contents-left{
+        margin-right:0;
+    }
+
+    .contents-right{
+        margin-left:0;
     }
 
     .news-message{
@@ -90,6 +113,14 @@
         font: Bold 14px/28px YuGothic;
         color: #333333;
         margin-bottom: 15px;
+    }
+
+    .news-contents div{
+        width: 100%;
+    }
+
+    .news-contents p{
+        width: 100%;
     }
 }
 
@@ -170,9 +201,9 @@
         width: 100%;
     }
 
-    .news-content{
+    /* .news-content{
         flex-direction: column;
-    }
+    } */
 
     .news-message{
         margin-left:0;
