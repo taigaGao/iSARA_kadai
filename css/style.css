@@ -4,7 +4,8 @@
 
 body {
   font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif;
-  max-width:1280px;
+  /* max-width:1280px; */
+  /* bodyにmax-widthを指定することはあまりやらない */
   margin: 0 auto;
 }
 
@@ -21,7 +22,7 @@ a {
 }
 
 .container{
-    max-width:1080px;
+    max-width:1280px;
     width: 100%;
     margin: 0 auto;
 }
@@ -72,12 +73,12 @@ header{
 }
 
 .primary{
-    width: 700px;
+    width: 800px;
     margin-right: 80px;
 }
 
 .secondary{
-    width: 300px;
+    width: 400px;
 }
 
 .contents{
@@ -93,16 +94,21 @@ header{
     width: 100%;
 }
 
+.about{
+    margin-bottom: 100px;;
+}
+
 .about-contents{
     display: flex;
 }
 
 .about-content{
-    width: 320px;
+    width: 370px;
 }
 
 .about-content img{
     margin-bottom: 30px;
+    width: 100%;
 }
 
 .about-content p{

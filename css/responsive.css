@@ -1,3 +1,98 @@
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 1024px) {
+    .container{
+        width: 900px;
+    }
+
+    .primary{
+        width: 500px;
+    }
+    .secondary{
+        width: 300px;
+    }
+
+}
+
+/* タブレットサイズの場合は以下を適用する:768px以下 */
+@media all and (max-width: 800px) {
+    .container{
+        width: 668px;
+        /* padding:0 15px; */
+    }
+    
+    .contents-wrapper{
+        margin: 40px 0;
+    }
+
+    .contents{
+        flex-direction: column;
+    }
+
+    .primary{
+        width:100%
+    }
+
+    .about {
+        margin-bottom: 0;
+    }
+
+    .about-contents{
+        flex-direction: column;
+    }
+
+    .about-content{
+        width: 100%;
+    }
+
+    .about-content img{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .about-content p{
+        margin-bottom: 40px;
+    }
+
+    .secondary{
+        width: 100%;
+    }
+
+    .news-content{
+        flex-direction: column;
+    }
+
+    .news-message{
+        margin-left:0;
+        width: 668px;
+    }
+
+    .news-btn{
+        text-align: center;
+        /* font-size: 14px; */
+        /* padding:13px 39px; */
+        margin-bottom: 60px;
+    }
+
+    .btn{
+        padding:13px 0;
+        font-size: 14px;
+    }
+
+    .side-images img{
+        margin:0 auto 30px auto;
+    }
+
+    .side-image{
+        width: 300px;
+    }
+
+    .category-list{
+        font: Bold 14px/28px YuGothic;
+        color: #333333;
+        margin-bottom: 15px;
+    }
+}
+
 /* スマホサイズの場合は以下を適用する:375px以下 */
 @media all and (max-width: 375px) {
     .top-wrapper{
@@ -81,7 +176,7 @@
 
     .news-message{
         margin-left:0;
-        width: 315px;
+        width: 345px;
     }
 
     .news-btn{
@@ -127,7 +222,11 @@
 
     .news-message{
         margin-left:0;
-        width: 300px;
+        width: 280px;
+    }
+
+    .news-message p{
+        width: 280px;
     }
 
     .side-image{
