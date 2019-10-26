@@ -202,3 +202,7 @@ footer{
     line-height: 50px;
     color: #FFFFFF;
 }
+
+.category-list li{
+    font-family: "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック体", YuGothic, sans-serif;
+}
