@@ -1,14 +1,14 @@
-/* タブレットサイズの場合は以下を適用する:1024px以下 */
-@media all and (max-width: 1024px) {
+/* PCサイズ中の場合は以下を適用する:1280px以下 */
+@media all and (max-width: 1380px) {
     .container{
-        width: 900px;
+        width: 1280px;
     }
 
     .primary{
-        width: 500px;
+        width: 737px;
     }
     .secondary{
-        width: 300px;
+        width: 368px;
     }
 
     .contents-left{
@@ -19,28 +19,77 @@
         margin-left:10px;
     }
 
-    .news-content{
-        flex-direction: column;
-        width: 500px;
+    .news-message{
+        width: 511px;
     }
-
-    .news-content p{
-        width: 500px;
-    }
-
-
-
 }
 
-/* タブレットサイズの場合は以下を適用する:768px以下 */
-@media all and (max-width: 800px) {
+/* PCサイズの場合は以下を適用する:1280px以下 */
+@media all and (max-width: 1280px) {
     .container{
-        width: 668px;
-        /* padding:0 15px; */
+        width: 1180px;
     }
-    
-    .contents-wrapper{
-        margin: 40px 0;
+
+    .primary{
+        width: 675px;
+    }
+    .secondary{
+        width: 337px;
+    }
+
+    .contents-left{
+        margin-right:10px;
+    }
+
+    .contents-right{
+        margin-left:10px;
+    }
+
+    .news-message{
+        width: 511px;
+    }
+}
+
+/* PCサイズの場合は以下を適用する:1180px以下 */
+@media all and (max-width: 1180px) {
+    .container{
+        width: 980px;
+    }
+
+    .primary{
+        width: 612px;
+    }
+    .secondary{
+        width: 306px;
+    }
+
+    .news-message{
+        width: 468px;
+    }
+}
+
+/* PCサイズの場合は以下を適用する:1180px以下 */
+@media all and (max-width: 1080px) {
+    .container{
+        width: 880px;
+    }
+
+    .primary{
+        width: 550px;
+    }
+    .secondary{
+        width: 275px;
+    }
+
+    .news-message{
+        width: 424px;
+    }
+}
+
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 1024px) {
+    .container{
+        width: 824px;
     }
 
     .contents{
@@ -48,221 +97,126 @@
     }
 
     .primary{
-        width:100%
+        width: 100%;
     }
 
-    .about {
-        margin-bottom: 0;
+    .about-content {
+        width: 100%;
+    }
+
+    .about-content img{
+        margin-bottom: 10px;
     }
 
     .about-contents{
         flex-direction: column;
     }
 
-    .about-content{
-        width: 100%;
-    }
-
-    .about-content img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .about-content p{
+    .contents-left{
+        margin-right: 0;
         margin-bottom: 40px;
+    }
+
+    .contents-right{
+        margin-left: 0;
     }
 
     .secondary{
         width: 100%;
     }
 
-    .contents-left{
-        margin-right:0;
+    .side-images{
+        width: 90%;
+        margin: 0 auto;
     }
 
-    .contents-right{
-        margin-left:0;
+    .news-content{
+        flex-direction: column;
     }
 
     .news-message{
-        margin-left:0;
-        width: 668px;
+        margin-left: 0;
+        width: 100%;
     }
 
     .news-btn{
         text-align: center;
-        /* font-size: 14px; */
-        /* padding:13px 39px; */
-        margin-bottom: 60px;
-    }
-
-    .btn{
-        padding:13px 0;
-        font-size: 14px;
-    }
-
-    .side-images img{
-        margin:0 auto 30px auto;
-    }
-
-    .side-image{
-        width: 300px;
-    }
-
-    .category-list{
-        font: Bold 14px/28px YuGothic;
-        color: #333333;
-        margin-bottom: 15px;
-    }
-
-    .news-contents div{
-        width: 100%;
-    }
-
-    .news-contents p{
-        width: 100%;
+        margin-bottom: 20px;
     }
 }
 
-/* スマホサイズの場合は以下を適用する:375px以下 */
-@media all and (max-width: 375px) {
-    .top-wrapper{
-        text-align:center;
-    }
-
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 924px) {
     .container{
-        width: 345px;
-        /* padding:0 15px; */
+        width: 774px;
     }
+}
 
-    header{
-        /* height: 80px; */
-        margin:15px 0 5px 0;
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 824px) {
+    .container{
+        width: 674px;
+    }
+}
+
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 724px) {
+    .container{
+        width: 574px;
+    }
+}
+
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 624px) {
+    .contents-wrapper{
+        margin:20px 0 ;
+    }
+    .container{
+        width: 90%;
     }
 
     .header-content{
         flex-direction: column;
     }
 
+    header{
+        height:80px;
+    }
+
     .header-list{
         margin-left:0;
     }
 
+    .header-logo p{
+        font-size: 18px;
+        line-height: 40px;
+    }
+
     .header-list a{
-        margin-left: 0;
-        margin-right:11px;
-        font-size:14px;
-        line-height: 24px;
-    }
-
-    .header-logo{
-        font-size:18px;
-        line-height: 31px;
-    }
-    
-    .contents-wrapper{
-        margin: 40px 0;
-    }
-
-    .contents{
-        flex-direction: column;
-    }
-
-    .heading{
-        font-size:22px;
-        line-height: 28px;
-        color: #1F91BE;
-        border-bottom: 3px solid #1F91BE;
-        margin-bottom: 20px;
-    }
-
-    .primary{
-        width:100%
-    }
-
-    .about-contents{
-        flex-direction: column;
-    }
-
-    .about-content{
-        width: 100%;
-    }
-
-    .about-content img{
-        width: 100%;
-        margin-bottom: 20px;
-    }
-
-    .about-content p{
-        margin-bottom: 40px;
-    }
-
-    .secondary{
-        width: 100%;
-    }
-
-    /* .news-content{
-        flex-direction: column;
-    } */
-
-    .news-message{
+        font-size: 14px;
+        display: block;
         margin-left:0;
-        width: 345px;
+        margin-right:30px;
+        line-height: 20px;
     }
 
-    .news-btn{
-        text-align: center;
-        /* font-size: 14px; */
-        /* padding:13px 39px; */
+    .about{
         margin-bottom: 60px;
     }
 
-    .btn{
-        padding:13px 0;
+    .heading p{
+        font-size: 22px;
+    }
+
+    .category-list li{ 
         font-size: 14px;
-    }
-
-    .side-images img{
-        margin:0 auto 30px auto;
-    }
-
-    .side-image{
-        width: 300px;
-    }
-
-    .category-list{
-        font: Bold 14px/28px YuGothic;
-        color: #333333;
-        margin-bottom: 15px;
     }
 }
 
-/* スマホサイズの場合は以下を適用する:320px以下 */
-@media all and (max-width: 320px) {
-    .container{
-        width: 300px;
-        padding:0 10px;
-    }
-
+/* タブレットサイズの場合は以下を適用する:1024px以下 */
+@media all and (max-width: 524px) {
     .header-list a{
-        margin-left: 0;
-        margin-right:11px;
-        font-size:12px;
-        line-height: 22px;
-    }
-
-    .news-message{
-        margin-left:0;
-        width: 280px;
-    }
-
-    .news-message p{
-        width: 280px;
-    }
-
-    .side-image{
-        padding:0 10px;
-        width: 280px;
+        margin-right:10px;
     }
 }
 
